@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="Pane" prefHeight="724.0" prefWidth="1156.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.BookManagementFromController">
+   <children>
+      <ImageView fitHeight="788.0" fitWidth="1386.0" layoutX="-2.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asstes/BookmanagementPage.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="searchbar" layoutX="361.0" layoutY="105.0" prefHeight="51.0" prefWidth="331.0" styleClass="userName" stylesheets="@../Styles/Books.css" />
+      <Button layoutX="698.0" layoutY="105.0" mnemonicParsing="false" onAction="#serachOnAtion" opacity="0.0" prefHeight="51.0" prefWidth="52.0" text="Button" />
+      <Button layoutX="1048.0" layoutY="88.0" mnemonicParsing="false" onAction="#AddbtnOnAction" opacity="0.0" prefHeight="86.0" prefWidth="84.0" text="Button" />
+      <HBox layoutX="361.0" layoutY="298.0" prefHeight="467.0" prefWidth="810.0" styleClass="Show" stylesheets="@../Styles/Books.css">
+         <children>
+            <ScrollPane prefHeight="467.0" prefWidth="814.0">
+               <content>
+                  <VBox fx:id="BD" prefHeight="465.0" prefWidth="810.0" style="-fx-background-color: #FFF;">
+                     <children>
+                        <HBox prefHeight="63.0" prefWidth="734.0">
+                           <children>
+                              <Label styleClass="table_text" stylesheets="@../Styles/Dashboard.css" text="B001" translateX="55.0" translateY="22.0">
+                                 <padding>
+                                    <Insets top="5.0" />
+                                 </padding>
+                              </Label>
+                              <Label styleClass="table_text" stylesheets="@../Styles/Dashboard.css" text="Label" translateX="291.0" translateY="24.0" />
+                              <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="38.0" styleClass="Delete" stylesheets="@../Styles/Books.css" translateX="545.0" translateY="14.0">
+                                 <graphic>
+                                    <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@asstes/trash.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="38.0" styleClass="Delete" stylesheets="@../Styles/Books.css" translateX="583.0" translateY="15.0">
+                                 <graphic>
+                                    <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@asstes/analysis.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </HBox>
+      <Button layoutX="-19.0" layoutY="349.0" maxHeight="90.0" maxWidth="370.0" minWidth="332.0" mnemonicParsing="false" onAction="#memberbtnOnActhion" prefHeight="90.0" prefWidth="375.0" styleClass="Main_Option" stylesheets="@../Styles/Dashboard.css">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true" translateX="-104.0" translateY="-2.0">
+               <image>
+                  <Image url="@asstes/Dashboard/team%201.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="112.0" layoutY="379.0" scaleZ="0.0" styleClass="text-style" stylesheets="@../Styles/Dashboard.css" text="Members" translateX="-20.0" translateY="1.0" />
+      <Button layoutX="-20.0" layoutY="445.0" maxHeight="90.0" maxWidth="370.0" minWidth="332.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="370.0" styleClass="Main_Option" stylesheets="@../Styles/Dashboard.css">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true" translateX="-104.0" translateY="-2.0">
+               <image>
+                  <Image url="@asstes/Dashboard/credit-card%201.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="113.0" layoutY="475.0" scaleZ="0.0" styleClass="text-style" stylesheets="@../Styles/Dashboard.css" text="Payment" translateX="-20.0" translateY="1.0" />
+      <Button layoutX="-19.0" layoutY="542.0" maxHeight="90.0" maxWidth="370.0" minWidth="332.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="370.0" styleClass="Main_Option" stylesheets="@../Styles/Dashboard.css">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true" translateX="-104.0" translateY="-2.0">
+               <image>
+                  <Image url="@asstes/Dashboard/profile%201.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="114.0" layoutY="572.0" scaleZ="0.0" styleClass="text-style" stylesheets="@../Styles/Dashboard.css" text="User" translateX="-20.0" translateY="1.0" />
+      <Button layoutX="-19.0" layoutY="155.0" maxHeight="90.0" maxWidth="375.0" minWidth="332.0" mnemonicParsing="false" onAction="#OnclckDashbord" prefHeight="89.0" prefWidth="375.0" styleClass="Main_Option" stylesheets="@../Styles/Dashboard.css">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" translateX="-104.0" translateY="-2.0">
+               <image>
+                  <Image url="@asstes/Dashboard/dashboard%201.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="114.0" layoutY="185.0" scaleZ="0.0" styleClass="text-style" stylesheets="@../Styles/Dashboard.css" text="Dashbord" translateX="-20.0" translateY="1.0" />
+   </children>
+</AnchorPane>

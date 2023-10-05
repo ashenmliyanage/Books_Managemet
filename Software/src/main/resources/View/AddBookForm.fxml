@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="724.0" prefWidth="1156.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.BookManagement.AddBookFormController">
+   <children>
+      <ImageView fitHeight="731.0" fitWidth="1134.0" layoutX="-9.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asstes/AddBook.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="Name" layoutX="114.0" layoutY="105.0" prefHeight="64.0" prefWidth="414.0" style="-fx-background-color: transparent; -fx-alignment: center; -fx-font-size: 20px;" styleClass="BookName" stylesheets="@../Styles/Books.css" />
+      <TextField fx:id="ID" layoutX="628.0" layoutY="107.0" prefHeight="64.0" prefWidth="408.0" style="-fx-background-color: transparent; -fx-alignment: center; -fx-font-size: 20px;" styleClass="BookName" stylesheets="@../Styles/Books.css" />
+      <TextField fx:id="DIS" layoutX="119.0" layoutY="255.0" prefHeight="247.0" prefWidth="919.0" style="-fx-background-color: transparent; -fx-alignment: center; -fx-font-size: 20px;" styleClass="BookName" stylesheets="@../Styles/Books.css" />
+      <TextField fx:id="LOC" layoutX="121.0" layoutY="570.0" prefHeight="64.0" prefWidth="414.0" style="-fx-background-color: transparent; -fx-alignment: center; -fx-font-size: 20px;" styleClass="BookName" stylesheets="@../Styles/Books.css" />
+      <Button layoutX="819.0" layoutY="593.0" mnemonicParsing="false" onAction="#addButtonOnAction" prefHeight="87.0" prefWidth="238.0" styleClass="LoginButton" stylesheets="@../Styles/LoginPage.css" text="Add" />
+   </children>
+</AnchorPane>

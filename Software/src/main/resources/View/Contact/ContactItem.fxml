@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox prefHeight="63.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="U_ID" styleClass="table_text" stylesheets="@../../Styles/Dashboard.css" text="B001" translateX="55.0" translateY="20.0">
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+      </Label>
+      <Label fx:id="Name" styleClass="table_text" stylesheets="@../../Styles/Dashboard.css" text="Label" translateX="291.0" translateY="24.0" />
+      <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="23.0" styleClass="Delete" stylesheets="@../../Styles/Books.css" translateX="485.0" translateY="14.0">
+         <graphic>
+            <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asstes/trash.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="23.0" styleClass="Delete" stylesheets="@../../Styles/Books.css" translateX="519.0" translateY="15.0">
+         <graphic>
+            <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asstes/analysis.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</HBox>

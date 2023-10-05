@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="Pane" prefHeight="724.0" prefWidth="1156.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.QrCodeLoginPageFromController">
+   <children>
+      <ImageView fitHeight="752.0" fitWidth="1157.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asstes/QrLoginPage.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f9f7f1" height="375.0" layoutX="649.0" layoutY="202.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="453.0" />
+      <ImageView fitHeight="303.0" fitWidth="587.0" layoutX="572.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asstes/The%20best%20QR%20code%20scanning%20applications%20for%20Android%20users%20in%202020.gif" />
+         </image>
+      </ImageView>
+      <Button layoutX="785.0" layoutY="514.0" mnemonicParsing="false" onAction="#OnClickScan" prefHeight="71.0" prefWidth="163.0" styleClass="LoginButton" stylesheets="@../Styles/LoginPage.css" text="Scan" />
+      <Button layoutX="1014.0" layoutY="668.0" mnemonicParsing="false" onAction="#OnClickBack" styleClass="LoginButton" stylesheets="@../Styles/LoginPage.css" text="Back" />
+   </children>
+</AnchorPane>

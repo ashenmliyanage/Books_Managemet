@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="448.0" prefWidth="677.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.BookManagement.ViewFromController">
+   <children>
+      <Label fx:id="BookID" layoutX="113.0" layoutY="49.0" prefHeight="78.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

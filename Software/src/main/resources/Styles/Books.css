@@ -1,0 +1,19 @@
+.userName{
+    -fx-background-color: transparent;
+    -fx-font-family: Alata;
+    -fx-font-size: 15px;
+}
+.BookName{
+    -fx-background-color: transparent;
+    -fx-background-radius: 35px;
+}
+.Show{
+    -fx-background-color: transparent;
+}
+.Delete{
+    -fx-background-color: #3CC37A;
+    -fx-background-radius: 50px;
+}
+.Delete:hover{
+    -fx-background-color: #98FB98;
+}

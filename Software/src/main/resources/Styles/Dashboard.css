@@ -1,0 +1,28 @@
+/* JavaFX CSS */
+.text-style {
+    -fx-text-fill: #FFF;
+    -fx-font-family: "Lucida Sans";
+    -fx-font-size: 22px;
+    -fx-font-style: normal;
+    -fx-font-weight: 600;
+    -fx-line-height: 120px;
+}
+.Main_Option{
+    -fx-min-width: 349px;
+    -fx-max-width: 349px;
+    -fx-min-height: 89px;
+    -fx-max-height: 89px;
+    -fx-background-color:#3CC37A;
+}
+.Main_Option:hover{
+    -fx-background-color: #98FB98;
+}
+.table_text{
+    -fx-text-fill: #000;
+    -fx-font-family: "Lucida Sans";
+    -fx-font-size: 15px;
+    -fx-font-style: normal;
+    -fx-font-weight: 600;
+    -fx-line-height: 120px;
+    -fx-alignment: center;
+}

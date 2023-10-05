@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="Pane" prefHeight="724.0" prefWidth="1156.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.MembersManagementFormController">
+   <children>
+      <ImageView fitHeight="781.0" fitWidth="1229.0" layoutX="-4.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asstes/Memeber.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="-25.0" layoutY="261.0" maxHeight="90.0" maxWidth="370.0" minWidth="332.0" mnemonicParsing="false" onAction="#BookOnAction" prefHeight="90.0" prefWidth="370.0" styleClass="Main_Option" stylesheets="@../Styles/Dashboard.css">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true" translateX="-112.0" translateY="-2.0">
+               <image>
+                  <Image url="@asstes/Dashboard/book%20(1)%202.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="95.0" layoutY="294.0" styleClass="text-style" stylesheets="@../Styles/Dashboard.css" text="Books" />
+      <Button layoutX="-26.0" layoutY="459.0" maxHeight="90.0" maxWidth="370.0" minWidth="332.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="370.0" styleClass="Main_Option" stylesheets="@../Styles/Dashboard.css">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true" translateX="-112.0" translateY="-2.0">
+               <image>
+                  <Image url="@asstes/Dashboard/credit-card%201.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="89.0" layoutY="492.0" styleClass="text-style" stylesheets="@../Styles/Dashboard.css" text="Payment" />
+      <Button layoutX="-25.0" layoutY="556.0" maxHeight="90.0" maxWidth="370.0" minWidth="332.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="370.0" styleClass="Main_Option" stylesheets="@../Styles/Dashboard.css">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true" translateX="-112.0" translateY="-2.0">
+               <image>
+                  <Image url="@asstes/Dashboard/profile%201.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="90.0" layoutY="589.0" styleClass="text-style" stylesheets="@../Styles/Dashboard.css" text="User" />
+      <Button layoutX="-21.0" layoutY="163.0" maxHeight="90.0" maxWidth="375.0" minWidth="332.0" mnemonicParsing="false" onAction="#OnclckDashbord" prefHeight="89.0" prefWidth="375.0" styleClass="Main_Option" stylesheets="@../Styles/Dashboard.css">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" translateX="-114.0" translateY="-2.0">
+               <image>
+                  <Image url="@asstes/Dashboard/dashboard%201.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="101.0" layoutY="193.0" styleClass="text-style" stylesheets="@../Styles/Dashboard.css" text="Dashbord" />
+      <Button layoutX="1043.0" layoutY="75.0" mnemonicParsing="false" onAction="#MemberAddbtnOnAction" opacity="0.0" prefHeight="101.0" prefWidth="90.0" text="Button" />
+   </children>
+</AnchorPane>

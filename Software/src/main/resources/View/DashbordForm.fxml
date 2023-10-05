@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="Pane" prefHeight="724.0" prefWidth="1156.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.DashbordFormController">
+   <children>
+      <ImageView fitHeight="805.0" fitWidth="1251.0" layoutX="-5.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asstes/Dashboard.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="-16.0" layoutY="252.0" maxHeight="90.0" maxWidth="370.0" minWidth="332.0" mnemonicParsing="false" onAction="#BooksbtnOnAtion" prefHeight="90.0" prefWidth="370.0" styleClass="Main_Option" stylesheets="@../Styles/Dashboard.css">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true" translateX="-112.0" translateY="-2.0">
+               <image>
+                  <Image url="@asstes/Dashboard/book%20(1)%202.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="90.0" layoutY="285.0" styleClass="text-style" stylesheets="@../Styles/Dashboard.css" text="Books" />
+      <Button layoutX="-16.0" layoutY="354.0" maxHeight="90.0" maxWidth="370.0" minWidth="332.0" mnemonicParsing="false" onAction="#memberbtnOnAction" prefHeight="90.0" prefWidth="370.0" styleClass="Main_Option" stylesheets="@../Styles/Dashboard.css">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true" translateX="-112.0" translateY="-2.0">
+               <image>
+                  <Image url="@asstes/Dashboard/team%201.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="91.0" layoutY="387.0" styleClass="text-style" stylesheets="@../Styles/Dashboard.css" text="Members" />
+      <Button layoutX="-17.0" layoutY="450.0" maxHeight="90.0" maxWidth="370.0" minWidth="332.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="370.0" styleClass="Main_Option" stylesheets="@../Styles/Dashboard.css">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true" translateX="-112.0" translateY="-2.0">
+               <image>
+                  <Image url="@asstes/Dashboard/credit-card%201.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="92.0" layoutY="483.0" styleClass="text-style" stylesheets="@../Styles/Dashboard.css" text="Payment" />
+      <Button layoutX="-16.0" layoutY="547.0" maxHeight="90.0" maxWidth="370.0" minWidth="332.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="370.0" styleClass="Main_Option" stylesheets="@../Styles/Dashboard.css">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true" translateX="-112.0" translateY="-2.0">
+               <image>
+                  <Image url="@asstes/Dashboard/profile%201.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="93.0" layoutY="580.0" styleClass="text-style" stylesheets="@../Styles/Dashboard.css" text="User" />
+      <Label fx:id="U_ID1" layoutX="398.0" layoutY="387.0" prefHeight="56.0" prefWidth="104.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="U_ID2" layoutX="399.0" layoutY="424.0" prefHeight="56.0" prefWidth="104.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="U_ID3" layoutX="399.0" layoutY="456.0" prefHeight="56.0" prefWidth="104.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="U_ID4" layoutX="399.0" layoutY="489.0" prefHeight="56.0" prefWidth="104.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="U_ID5" layoutX="399.0" layoutY="520.0" prefHeight="56.0" prefWidth="104.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="U_ID6" layoutX="399.0" layoutY="554.0" prefHeight="56.0" prefWidth="104.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="U_ID7" layoutX="399.0" layoutY="588.0" prefHeight="56.0" prefWidth="104.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="U_ID8" layoutX="398.0" layoutY="620.0" prefHeight="56.0" prefWidth="104.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="U_ID9" layoutX="398.0" layoutY="653.0" prefHeight="56.0" prefWidth="104.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="U_ID10" layoutX="398.0" layoutY="684.0" prefHeight="56.0" prefWidth="104.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="Nane1" layoutX="529.0" layoutY="388.0" prefHeight="56.0" prefWidth="237.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="Nane2" layoutX="530.0" layoutY="425.0" prefHeight="56.0" prefWidth="237.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="Nane3" layoutX="530.0" layoutY="457.0" prefHeight="56.0" prefWidth="237.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="Nane4" layoutX="530.0" layoutY="490.0" prefHeight="56.0" prefWidth="237.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="Nane5" layoutX="530.0" layoutY="521.0" prefHeight="56.0" prefWidth="237.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="Nane6" layoutX="530.0" layoutY="555.0" prefHeight="56.0" prefWidth="237.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="Nane7" layoutX="530.0" layoutY="589.0" prefHeight="56.0" prefWidth="237.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="Nane8" layoutX="529.0" layoutY="621.0" prefHeight="56.0" prefWidth="237.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="Nane9" layoutX="529.0" layoutY="654.0" prefHeight="56.0" prefWidth="237.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="Nane10" layoutX="529.0" layoutY="685.0" prefHeight="56.0" prefWidth="237.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="B_name" layoutX="864.0" layoutY="400.0" prefHeight="42.0" prefWidth="322.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="B_name1" layoutX="864.0" layoutY="439.0" prefHeight="42.0" prefWidth="322.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="B_name2" layoutX="864.0" layoutY="481.0" prefHeight="42.0" prefWidth="322.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="B_name3" layoutX="865.0" layoutY="521.0" prefHeight="42.0" prefWidth="322.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="B_name4" layoutX="865.0" layoutY="558.0" prefHeight="42.0" prefWidth="322.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="B_name5" layoutX="864.0" layoutY="596.0" prefHeight="42.0" prefWidth="322.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="B_name6" layoutX="865.0" layoutY="638.0" prefHeight="42.0" prefWidth="322.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="B_name7" layoutX="865.0" layoutY="677.0" prefHeight="42.0" prefWidth="322.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="B_name8" layoutX="865.0" layoutY="716.0" prefHeight="42.0" prefWidth="322.0" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" />
+      <Label fx:id="Book_count" layoutX="468.0" layoutY="194.0" prefHeight="42.0" prefWidth="104.0" style="-fx-background-color: #FFFF; -fx-font-size: 20px; -fx-font-weight: 10vh;" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" text="100" />
+      <Label fx:id="Members_count" layoutX="716.0" layoutY="193.0" prefHeight="42.0" prefWidth="104.0" style="-fx-background-color: #FFFF; -fx-font-size: 20px; -fx-font-weight: 10vh;" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" text="100" />
+      <Label fx:id="Total" layoutX="972.0" layoutY="193.0" prefHeight="42.0" prefWidth="104.0" style="-fx-background-color: #FFFF; -fx-font-size: 20px; -fx-font-weight: 10vh;" styleClass="table_text" stylesheets="@../Styles/Dashboard.css" text="100" />
+   </children>
+</AnchorPane>

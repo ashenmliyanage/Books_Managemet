@@ -1,0 +1,23 @@
+.userName{
+    -fx-background-color: #FFFF;
+    -fx-font-family: Alata;
+    -fx-font-size: 15px;
+}
+.LoginButton{
+    -fx-background-radius: 100px;
+    -fx-background-color: #3CC37A;
+    -fx-font-size: 25px;
+    -fx-text-fill: #FFFF;
+    -fx-font-family: "Lucida Sans";
+    -fx-font-weight: Demibold Roman;
+}
+.LoginButton:hover{
+    -fx-background-color: #98FB98;
+}
+.QrLoginButton{
+    -fx-background-color: #C1EDEB;
+    -fx-background-radius: 100px;
+}
+.QrLoginButton:hover{
+    -fx-background-color: #98FB98;
+}
